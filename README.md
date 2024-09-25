@@ -1,5 +1,5 @@
 
 whatup
-<form action="https://fbi.com">
+<form action="https://youtube.com">
     <input type="submit" value="Go to Google" />
 </form>
