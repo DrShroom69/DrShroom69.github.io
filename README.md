@@ -44,7 +44,7 @@ whatup
             <div class="double_wrapper02 orange02"><div class="double_wrapper01 orange01"></div></div>
         </div>
         <div class="name">
-            <p>This shit sucks </p>
+            <p>This shit sucks</p>
             <span class="name_circle01"></span>
             <span class="name_circle02"></span>
         </div>
