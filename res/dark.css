@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    color: #ddd; /* světlá šedá */
+    background: #111; /* tmavé pozadí */
+    margin: 0;
+}
+
+header, nav, footer {
+    text-align: center;
+    padding: 5px;
+    color: #4ac; /* modrá */
+    margin: 5px;
+}
+
+ul {
+    list-style: none;   /* odstraní veškeré znaky (bullets nebo čísla) z položek seznamu */
+    padding: 0;         /* nastaví vnitřní okraje, mezi okrajem seznamu a jeho obsahem nebude žádný prostor. */
+	margin: 30px;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #4af; /* modrá */
+    background: #333; /* střední šedá */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: #444; /* světlejší šedá */
+    color: #fff; /* bílá */
+}
+
+footer {
+    background: #151515; /* tmavá šedá */
+    display: flex; /* umožňuje flexibilní rozložení prvků */
+	align-items: center; /* zajistí vertikální zarovnání prvků ve středu */
+    justify-content: center; /* zajistí, že celý obsah (fotografie a text) bude horizontálně vycentrován*/
+}
