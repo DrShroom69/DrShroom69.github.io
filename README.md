@@ -1,1 +1,1 @@
-jabadabadu pičo
+jabadabadu slušná řeč 
