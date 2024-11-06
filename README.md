@@ -1,1 +1,1 @@
-jabadabadu slušná řeč 
+jabadabadu
