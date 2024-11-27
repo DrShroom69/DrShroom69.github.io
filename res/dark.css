@@ -44,6 +44,7 @@ a:hover {
 
 footer {
     background: #151515; /* tmavá šedá */
+    opacity: 0.4;
     display: flex; /* umožňuje flexibilní rozložení prvků */
 	align-items: center; /* zajistí vertikální zarovnání prvků ve středu */
     justify-content: center; /* zajistí, že celý obsah (fotografie a text) bude horizontálně vycentrován*/
