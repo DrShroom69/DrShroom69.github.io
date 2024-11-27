@@ -1,7 +1,7 @@
 /* styles.css */
 body {
     background: url('bkg.gif') no-repeat center center fixed;
-    background-size: contain;
+    background-size: cover;
     font-family: Arial, sans-serif;
     color: #cccccc; /* světlá šedá */
     margin: 0;
