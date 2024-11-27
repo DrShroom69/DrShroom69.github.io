@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    background: url('res/inkpendude-portal-storm.gif') no-repeat center center fixed;
+    background: url(res/bkg.gif) no-repeat center center fixed;
     font-family: Arial, sans-serif;
     color: #cccccc; /* světlá šedá */
     margin: 0;
