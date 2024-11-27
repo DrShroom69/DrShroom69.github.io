@@ -1,9 +1,13 @@
 /* styles.css */
 body {
+    background: url('res/inkpendude-portal-storm.gif')
+    no-repeat center center fixed;
     font-family: Arial, sans-serif;
-    color: #ddd; /* světlá šedá */
-    background: #111; /* tmavé pozadí */
+    color: #cccccc; /* světlá šedá */
     margin: 0;
+    padding: 0; 
+    height: 100vh;
+    overflow: hidden;	
 }
 
 header, nav, footer {
