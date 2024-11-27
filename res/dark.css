@@ -1,13 +1,13 @@
 /* styles.css */
 body {
-    background: url('bkg.gif') no-repeat center center fixed;
+    background: url('bkg.gif') no-repeat center center;
     background-size: contain;
     font-family: Arial, sans-serif;
     color: #cccccc; /* světlá šedá */
     margin: 0;
     padding: 0; 
-    height: 100vh;
-    width: 100vw;
+    #height: 100vh;
+    #width: 100vw;
     overflow: hidden;	
 }
 
