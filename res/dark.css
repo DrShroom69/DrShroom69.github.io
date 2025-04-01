@@ -49,3 +49,8 @@ footer {
 	align-items: center; /* zajistí vertikální zarovnání prvků ve středu */
     justify-content: center; /* zajistí, že celý obsah (fotografie a text) bude horizontálně vycentrován*/
 }
+
+.footer-image {
+    width: 200px;
+    margin-right: 80px;
+}
