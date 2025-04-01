@@ -2,13 +2,13 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Česká města</title>
+    <title>Česká města - Cyberpunk 2099</title>
     <style>
         /* General body styling */
         body {
-            color: lightgray;
-            font-family: Arial, sans-serif;
-            background-color: #222;
+            color: #0ff; /* Neon cyan text */
+            font-family: 'Orbitron', sans-serif; /* Futuristic font */
+            background: linear-gradient(135deg, #0d0d0d, #1a1a1a); /* Dark gradient background */
             text-align: left;
             margin: 0;
             padding: 20px;
@@ -16,18 +16,20 @@
 
         /* Styling for the back link */
         a {
-            color: #3af;
+            color: #ff00ff; /* Neon magenta */
             text-decoration: none;
-            background: #333;
+            background: rgba(255, 0, 255, 0.2); /* Transparent magenta background */
             padding: 10px 15px;
             border-radius: 5px;
             display: inline-block;
             margin-bottom: 20px;
+            box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
         }
 
         a:hover {
-            background: #444;
-            color: #7cf;
+            background: rgba(255, 0, 255, 0.4);
+            color: #fff;
+            box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
         }
 
         /* Table styling */
@@ -35,60 +37,64 @@
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
-            background-color: #333;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5), 0 0 30px rgba(0, 255, 255, 0.3);
         }
 
         th, td {
-            border: 1px solid #555;
+            border: 1px solid rgba(0, 255, 255, 0.3); /* Neon cyan border */
             padding: 12px;
             text-align: left;
-            color: #eee;
+            color: #0ff;
         }
 
         th {
-            background-color: #444;
+            background: rgba(0, 0, 0, 0.9); /* Darker background for headers */
             font-weight: bold;
             text-transform: uppercase;
+            color: #ff00ff; /* Neon magenta text */
+            box-shadow: 0 0 10px #ff00ff;
         }
 
         td {
-            background-color: #222;
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
         }
 
         tr:nth-child(even) td {
-            background-color: #2a2a2a;
+            background: rgba(0, 0, 0, 0.6); /* Slightly lighter for alternating rows */
         }
 
         tr:hover td {
-            background-color: #444;
+            background: rgba(0, 255, 255, 0.2); /* Neon cyan hover effect */
+            color: #fff;
         }
 
         /* Ordered list styling */
         ol {
             margin-top: 20px;
             padding: 10px;
-            background-color: #333;
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
             border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 15px rgba(255, 0, 255, 0.5), 0 0 30px rgba(255, 0, 255, 0.3);
         }
 
         ol li {
             margin: 5px 0;
             padding: 5px;
-            color: #ccc;
+            color: #0ff; /* Neon cyan */
         }
 
         ol li:hover {
             color: #fff;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
         }
 
         /* Header styling */
         h1 {
-            color: #fff;
+            color: #ff00ff; /* Neon magenta */
             text-align: center;
             margin-bottom: 20px;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
         }
     </style>
 </head>
@@ -137,30 +143,6 @@
             <td>100 tisíc</td>
             <td>Svatý Kopeček, Arcibiskupský palác, Olomoucká radnice</td>
             <td>Historické město</td>
-        </tr>
-        <tr>
-            <td>České Budějovice</td>
-            <td>93 tisíc</td>
-            <td>Černá věž, Budějovický Budvar, Náměstí Přemysla Otakara II.</td>
-            <td>Jižní Čechy</td>
-        </tr>
-        <tr>
-            <td>Ústí nad Labem</td>
-            <td>92 tisíc</td>
-            <td>Střekovský zámek, ZOO Ústí, Mariánská skála</td>
-            <td>Dopravní uzel severních Čech</td>
-        </tr>
-        <tr>
-            <td>Hradec Králové</td>
-            <td>92 tisíc</td>
-            <td>Bílá věž, Labská kotlina, Velké náměstí</td>
-            <td>Východní Čechy</td>
-        </tr>
-        <tr>
-            <td>Pardubice</td>
-            <td>91 tisíc</td>
-            <td>Zelená brána, Kunětická hora, Pardubický zámek</td>
-            <td>Město perníku</td>
         </tr>
     </table>
 
